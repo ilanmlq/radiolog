@@ -1,0 +1,9 @@
+# Ignorer le fichier JSON généré (contient des données sensibles)
+auth0_users_import.json
+
+# Ignorer les fichiers Python temporaires
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python

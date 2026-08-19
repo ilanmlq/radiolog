@@ -1,0 +1,444 @@
+[
+  {
+    "email": "leo.broquere@hes-so.ch",
+    "email_verified": true,
+    "given_name": "Broquere",
+    "family_name": "Léo",
+    "name": "Broquere Léo",
+    "nickname": "leo.broquere",
+    "user_metadata": {},
+    "app_metadata": {
+      "roles": [
+        "viewer"
+      ],
+      "organisationId": 1
+    },
+    "created_at": "2026-03-14T23:27:58.361089",
+    "updated_at": "2026-03-14T23:27:58.361095"
+  },
+  {
+    "email": "sabrina.lapaire@hes-so.ch",
+    "email_verified": true,
+    "given_name": "Lapaire",
+    "family_name": "Sabrina",
+    "name": "Lapaire Sabrina",
+    "nickname": "sabrina.lapaire",
+    "user_metadata": {},
+    "app_metadata": {
+      "roles": [
+        "viewer"
+      ],
+      "organisationId": 1
+    },
+    "created_at": "2026-03-14T23:27:58.361099",
+    "updated_at": "2026-03-14T23:27:58.361100"
+  },
+  {
+    "email": "mira.goossens@hes-so.ch",
+    "email_verified": true,
+    "given_name": "Goossens",
+    "family_name": "Mira",
+    "name": "Goossens Mira",
+    "nickname": "mira.goossens",
+    "user_metadata": {},
+    "app_metadata": {
+      "roles": [
+        "viewer"
+      ],
+      "organisationId": 1
+    },
+    "created_at": "2026-03-14T23:27:58.361103",
+    "updated_at": "2026-03-14T23:27:58.361104"
+  },
+  {
+    "email": "stefan.nikolic@etu.hesge.ch",
+    "email_verified": true,
+    "given_name": "Nikolic",
+    "family_name": "Stefan",
+    "name": "Nikolic Stefan",
+    "nickname": "stefan.nikolic",
+    "user_metadata": {},
+    "app_metadata": {
+      "roles": [
+        "viewer"
+      ],
+      "organisationId": 1
+    },
+    "created_at": "2026-03-14T23:27:58.361105",
+    "updated_at": "2026-03-14T23:27:58.361106"
+  },
+  {
+    "email": "stefane.nobre-braz@etu.hesge.ch",
+    "email_verified": true,
+    "given_name": "Nobre",
+    "family_name": "Braz Stefane",
+    "name": "Nobre Braz Stefane",
+    "nickname": "stefane.nobre-braz",
+    "user_metadata": {},
+    "app_metadata": {
+      "roles": [
+        "viewer"
+      ],
+      "organisationId": 1
+    },
+    "created_at": "2026-03-14T23:27:58.361108",
+    "updated_at": "2026-03-14T23:27:58.361108"
+  },
+  {
+    "email": "anthony.rodrigue1@hes-so.ch",
+    "email_verified": true,
+    "given_name": "Rodriguez",
+    "family_name": "Anthony",
+    "name": "Rodriguez Anthony",
+    "nickname": "anthony.rodrigue1",
+    "user_metadata": {},
+    "app_metadata": {
+      "roles": [
+        "viewer"
+      ],
+      "organisationId": 1
+    },
+    "created_at": "2026-03-14T23:27:58.361110",
+    "updated_at": "2026-03-14T23:27:58.361111"
+  },
+  {
+    "email": "gaetan.loretz@hes-so.ch",
+    "email_verified": true,
+    "given_name": "Loretz",
+    "family_name": "Gaëtan",
+    "name": "Loretz Gaëtan",
+    "nickname": "gaetan.loretz",
+    "user_metadata": {},
+    "app_metadata": {
+      "roles": [
+        "viewer"
+      ],
+      "organisationId": 1
+    },
+    "created_at": "2026-03-14T23:27:58.361113",
+    "updated_at": "2026-03-14T23:27:58.361113"
+  },
+  {
+    "email": "ilan.maleq@hes-so.ch",
+    "email_verified": true,
+    "given_name": "Maleq",
+    "family_name": "Ilan",
+    "name": "Maleq Ilan",
+    "nickname": "ilan.maleq",
+    "user_metadata": {},
+    "app_metadata": {
+      "roles": [
+        "viewer"
+      ],
+      "organisationId": 1
+    },
+    "created_at": "2026-03-14T23:27:58.361115",
+    "updated_at": "2026-03-14T23:27:58.361116"
+  },
+  {
+    "email": "pierre.muller1@hes-so.ch",
+    "email_verified": true,
+    "given_name": "Muller",
+    "family_name": "Pierre",
+    "name": "Muller Pierre",
+    "nickname": "pierre.muller1",
+    "user_metadata": {},
+    "app_metadata": {
+      "roles": [
+        "viewer"
+      ],
+      "organisationId": 1
+    },
+    "created_at": "2026-03-14T23:27:58.361117",
+    "updated_at": "2026-03-14T23:27:58.361118"
+  },
+  {
+    "email": "romainri.schroder@hes-so.ch",
+    "email_verified": true,
+    "given_name": "Schröder",
+    "family_name": "Romain",
+    "name": "Schröder Romain",
+    "nickname": "romainri.schroder",
+    "user_metadata": {},
+    "app_metadata": {
+      "roles": [
+        "viewer"
+      ],
+      "organisationId": 1
+    },
+    "created_at": "2026-03-14T23:27:58.361120",
+    "updated_at": "2026-03-14T23:27:58.361120"
+  },
+  {
+    "email": "amir.younes@hes-so.ch",
+    "email_verified": true,
+    "given_name": "Younes",
+    "family_name": "Amir",
+    "name": "Younes Amir",
+    "nickname": "amir.younes",
+    "user_metadata": {},
+    "app_metadata": {
+      "roles": [
+        "viewer"
+      ],
+      "organisationId": 1
+    },
+    "created_at": "2026-03-14T23:27:58.361122",
+    "updated_at": "2026-03-14T23:27:58.361123"
+  },
+  {
+    "email": "arthur.jegge@hes-so.ch",
+    "email_verified": true,
+    "given_name": "Jegge",
+    "family_name": "Arthur",
+    "name": "Jegge Arthur",
+    "nickname": "arthur.jegge",
+    "user_metadata": {},
+    "app_metadata": {
+      "roles": [
+        "viewer"
+      ],
+      "organisationId": 1
+    },
+    "created_at": "2026-03-14T23:27:58.361124",
+    "updated_at": "2026-03-14T23:27:58.361125"
+  },
+  {
+    "email": "david.ruegsegg@hes.so.ch",
+    "email_verified": true,
+    "given_name": "Rüegsegger",
+    "family_name": "David",
+    "name": "Rüegsegger David",
+    "nickname": "david.ruegsegg",
+    "user_metadata": {},
+    "app_metadata": {
+      "roles": [
+        "viewer"
+      ],
+      "organisationId": 1
+    },
+    "created_at": "2026-03-14T23:27:58.361127",
+    "updated_at": "2026-03-14T23:27:58.361127"
+  },
+  {
+    "email": "alexandr.sticher@hes-so.ch",
+    "email_verified": true,
+    "given_name": "Sticher",
+    "family_name": "Alexandre",
+    "name": "Sticher Alexandre",
+    "nickname": "alexandr.sticher",
+    "user_metadata": {},
+    "app_metadata": {
+      "roles": [
+        "viewer"
+      ],
+      "organisationId": 1
+    },
+    "created_at": "2026-03-14T23:27:58.361129",
+    "updated_at": "2026-03-14T23:27:58.361130"
+  },
+  {
+    "email": "dmytro.vakhrush@hes-so.ch",
+    "email_verified": true,
+    "given_name": "Vakhrushev",
+    "family_name": "Dmytro",
+    "name": "Vakhrushev Dmytro",
+    "nickname": "dmytro.vakhrush",
+    "user_metadata": {},
+    "app_metadata": {
+      "roles": [
+        "viewer"
+      ],
+      "organisationId": 1
+    },
+    "created_at": "2026-03-14T23:27:58.361131",
+    "updated_at": "2026-03-14T23:27:58.361132"
+  },
+  {
+    "email": "ruben.wihler@hes-so.ch",
+    "email_verified": true,
+    "given_name": "Wihler",
+    "family_name": "Ruben",
+    "name": "Wihler Ruben",
+    "nickname": "ruben.wihler",
+    "user_metadata": {},
+    "app_metadata": {
+      "roles": [
+        "viewer"
+      ],
+      "organisationId": 1
+    },
+    "created_at": "2026-03-14T23:27:58.361133",
+    "updated_at": "2026-03-14T23:27:58.361134"
+  },
+  {
+    "email": "laurice.curty@hes-so.ch",
+    "email_verified": true,
+    "given_name": "Curty",
+    "family_name": "Laurice",
+    "name": "Curty Laurice",
+    "nickname": "laurice.curty",
+    "user_metadata": {},
+    "app_metadata": {
+      "roles": [
+        "viewer"
+      ],
+      "organisationId": 1
+    },
+    "created_at": "2026-03-14T23:27:58.361135",
+    "updated_at": "2026-03-14T23:27:58.361136"
+  },
+  {
+    "email": "david.dasilvaf@hes-so.ch",
+    "email_verified": true,
+    "given_name": "da",
+    "family_name": "Silva Ferreira David",
+    "name": "da Silva Ferreira David",
+    "nickname": "david.dasilvaf",
+    "user_metadata": {},
+    "app_metadata": {
+      "roles": [
+        "viewer"
+      ],
+      "organisationId": 1
+    },
+    "created_at": "2026-03-14T23:27:58.361138",
+    "updated_at": "2026-03-14T23:27:58.361139"
+  },
+  {
+    "email": "quentin.gehri@hes-so.ch",
+    "email_verified": true,
+    "given_name": "Gehri",
+    "family_name": "Quentin",
+    "name": "Gehri Quentin",
+    "nickname": "quentin.gehri",
+    "user_metadata": {},
+    "app_metadata": {
+      "roles": [
+        "viewer"
+      ],
+      "organisationId": 1
+    },
+    "created_at": "2026-03-14T23:27:58.361140",
+    "updated_at": "2026-03-14T23:27:58.361141"
+  },
+  {
+    "email": "brian.grin@hes-so.ch",
+    "email_verified": true,
+    "given_name": "Grin",
+    "family_name": "Brian",
+    "name": "Grin Brian",
+    "nickname": "brian.grin",
+    "user_metadata": {},
+    "app_metadata": {
+      "roles": [
+        "viewer"
+      ],
+      "organisationId": 1
+    },
+    "created_at": "2026-03-14T23:27:58.361142",
+    "updated_at": "2026-03-14T23:27:58.361143"
+  },
+  {
+    "email": "yoann.meier@hes-so.ch",
+    "email_verified": true,
+    "given_name": "Meier",
+    "family_name": "Yoann",
+    "name": "Meier Yoann",
+    "nickname": "yoann.meier",
+    "user_metadata": {},
+    "app_metadata": {
+      "roles": [
+        "viewer"
+      ],
+      "organisationId": 1
+    },
+    "created_at": "2026-03-14T23:27:58.361144",
+    "updated_at": "2026-03-14T23:27:58.361145"
+  },
+  {
+    "email": "rafed.albadri@hes-so.ch",
+    "email_verified": true,
+    "given_name": "Albadri",
+    "family_name": "Rafed",
+    "name": "Albadri Rafed",
+    "nickname": "rafed.albadri",
+    "user_metadata": {},
+    "app_metadata": {
+      "roles": [
+        "viewer"
+      ],
+      "organisationId": 1
+    },
+    "created_at": "2026-03-14T23:27:58.361148",
+    "updated_at": "2026-03-14T23:27:58.361149"
+  },
+  {
+    "email": "corentin.chuard@hes-so.ch",
+    "email_verified": true,
+    "given_name": "Chuard",
+    "family_name": "Corentin",
+    "name": "Chuard Corentin",
+    "nickname": "corentin.chuard",
+    "user_metadata": {},
+    "app_metadata": {
+      "roles": [
+        "viewer"
+      ],
+      "organisationId": 1
+    },
+    "created_at": "2026-03-14T23:27:58.361150",
+    "updated_at": "2026-03-14T23:27:58.361151"
+  },
+  {
+    "email": "theo.hagmann@hes-so.ch",
+    "email_verified": true,
+    "given_name": "Hagmann",
+    "family_name": "Théo",
+    "name": "Hagmann Théo",
+    "nickname": "theo.hagmann",
+    "user_metadata": {},
+    "app_metadata": {
+      "roles": [
+        "viewer"
+      ],
+      "organisationId": 1
+    },
+    "created_at": "2026-03-14T23:27:58.361153",
+    "updated_at": "2026-03-14T23:27:58.361153"
+  },
+  {
+    "email": "louis.saulnier@hes-so.ch",
+    "email_verified": true,
+    "given_name": "Saulnier",
+    "family_name": "Louis",
+    "name": "Saulnier Louis",
+    "nickname": "louis.saulnier",
+    "user_metadata": {},
+    "app_metadata": {
+      "roles": [
+        "viewer"
+      ],
+      "organisationId": 1
+    },
+    "created_at": "2026-03-14T23:27:58.361155",
+    "updated_at": "2026-03-14T23:27:58.361156"
+  },
+  {
+    "email": "micael.schuwey@hes-so.ch",
+    "email_verified": true,
+    "given_name": "Schuwey",
+    "family_name": "Micaël",
+    "name": "Schuwey Micaël",
+    "nickname": "micael.schuwey",
+    "user_metadata": {},
+    "app_metadata": {
+      "roles": [
+        "viewer"
+      ],
+      "organisationId": 1
+    },
+    "created_at": "2026-03-14T23:27:58.361161",
+    "updated_at": "2026-03-14T23:27:58.361162"
+  }
+]

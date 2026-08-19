@@ -1,0 +1,174 @@
+stages:
+  - install
+  - lint
+  - test
+  - build
+  - deploy
+
+variables:
+  NODE_VERSION: "20"
+  NPM_CONFIG_CACHE: "$CI_PROJECT_DIR/.npm"
+
+.node_cache: &node_cache
+  cache:
+    key:
+      files:
+        - package-lock.json
+    paths:
+      - .npm
+      - node_modules
+
+backend:install:
+  stage: install
+  image: node:${NODE_VERSION}-alpine
+  <<: *node_cache
+  script:
+    - cd backend
+    - npm ci --include=dev
+  artifacts:
+    paths:
+      - backend/node_modules
+    expire_in: 1 hour
+  only:
+    changes:
+      - backend/**/*
+      - .gitlab-ci.yml
+
+#backend:lint:
+#  stage: lint
+#  image: node:${NODE_VERSION}-alpine
+#  dependencies:
+#    - backend:install
+#  script:
+#    - cd backend
+#    - npm run lint
+#  allow_failure: true
+#  only:
+#    changes:
+#      - backend/**/*
+#      - .gitlab-ci.yml
+
+backend:test:
+  stage: test
+  image: node:${NODE_VERSION}-alpine
+  dependencies:
+    - backend:install
+  script:
+    - cd backend
+    - npm test
+  allow_failure: true
+  only:
+    changes:
+      - backend/**/*
+      - .gitlab-ci.yml
+
+backend:build:
+  stage: build
+  image: node:${NODE_VERSION}-alpine
+  dependencies:
+    - backend:install
+  script:
+    - cd backend
+    - npm run build
+  artifacts:
+    paths:
+      - backend/dist
+    expire_in: 1 week
+  only:
+    changes:
+      - backend/**/*
+      - .gitlab-ci.yml
+
+backend:deploy:
+  stage: deploy
+  image: curlimages/curl:latest
+  dependencies:
+    - backend:build
+  script:
+    - >-
+      curl -X POST "http://195.15.214.143:3000/api/application.deploy"
+      -H "accept: application/json"
+      -H "Content-Type: application/json"
+      -H "x-api-key: $DOKPLOY_API_TOKEN"
+      -d '{"applicationId": "5Mgt0idimlU4OfS7AYP9d"}'
+  only:
+    - main
+    - master
+  when: manual
+
+frontend:install:
+  stage: install
+  image: node:${NODE_VERSION}-alpine
+  <<: *node_cache
+  script:
+    - cd frontend
+    - npm ci
+  artifacts:
+    paths:
+      - frontend/node_modules
+    expire_in: 1 hour
+  only:
+    changes:
+      - frontend/**/*
+      - .gitlab-ci.yml
+
+#frontend:lint:
+#  stage: lint
+#  image: node:${NODE_VERSION}-alpine
+#  dependencies:
+#    - frontend:install
+#  script:
+#    - cd frontend
+#    - npm run lint
+#  allow_failure: false
+#  only:
+#    changes:
+#      - frontend/**/*
+#      - .gitlab-ci.yml
+
+frontend:test:
+  stage: test
+  image: node:${NODE_VERSION}-alpine
+  dependencies:
+    - frontend:install
+  script:
+    - cd frontend
+    - npm test
+  allow_failure: true
+  only:
+    changes:
+      - frontend/**/*
+      - .gitlab-ci.yml
+
+frontend:build:
+  stage: build
+  image: node:${NODE_VERSION}-alpine
+  dependencies:
+    - frontend:install
+  script:
+    - cd frontend
+    - npm run build
+  artifacts:
+    paths:
+      - frontend/dist
+    expire_in: 1 week
+  only:
+    changes:
+      - frontend/**/*
+      - .gitlab-ci.yml
+
+frontend:deploy:
+  stage: deploy
+  image: curlimages/curl:latest
+  dependencies:
+    - frontend:build
+  script:
+    - >-
+      curl -X POST "http://195.15.214.143:3000/api/application.deploy"
+      -H "accept: application/json"
+      -H "Content-Type: application/json"
+      -H "x-api-key: $DOKPLOY_API_TOKEN"
+      -d '{"applicationId": "wlv5UugJgbJ3wbiASP6r0"}'
+  only:
+    - main
+  when: manual

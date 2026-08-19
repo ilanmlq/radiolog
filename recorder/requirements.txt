@@ -1,0 +1,8 @@
+requests==2.32.4
+paramiko
+python-dotenv
+pyaudio==0.2.14
+questionary==2.1.0
+setuptools==80.9.0
+webrtcvad==2.0.10
+numpy>=2.3.1
